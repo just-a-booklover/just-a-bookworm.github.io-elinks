@@ -2,36 +2,39 @@
 <html>
     <head>
        <style>
-              body {
-            font-family: "Crimson Text", Garamond, "Times New Roman", serif;
-            background-color: rgb(250, 243, 221);
-            font-size: 35px;
-            color: rgb(94, 100, 114);
+        body {
+            font-family: Georgia, Times, "Times New Roman", serif;
+            color: rgb(0, 16, 17);
+            font-size: 15px;
         }
         a:link {
-            color: rgb(94, 100, 114);
+            color: rgb(114, 128, 138);
         }
         a:visited {
-            color: rgb(174, 217, 224);
+            color: rgb(0, 16, 17);
         }
         a:hover {
-            background-color: rgb(250, 243, 221);
+            background-color: rgb(191, 215, 181);
         }
         #titlediv {
-            border-bottom: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            margin-right: -20px;
-            margin-left: -20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size:39px;
+            background-color: rgb(241, 250, 238);
+            font-size: 25px;
+            margin: -8px;
+            padding-top: 7px;
+            padding-bottom: 7px;
         }
-        #megadiv {
-            position: absolute;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-top: -29px;
+        #links {
+            font-size: 20px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
+            text-align: center;
+            padding: 5px;
+            clear: both;
+        }
+        .sotto {
+            background-color: rgb(241, 250, 238);
+            padding: 10px;
+            margin: -8px;
         }
         #title {
             text-align: center;
@@ -40,32 +43,25 @@
             margin-top: -15px;
         }
         #psmall {
-            font-size: 20px;
-        }
-        #div2 {
-            width: 28%;
-            float: right;
-            border: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            padding-left: 7px;
-            padding-right: 7px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
-            font-size: 30px;
+            font-size: 25px;
         }
         #piccolo {
-            border-top: 1px solid rgb(94, 100, 114);
-            background-color: rgb(255, 166, 158);
-            margin-right: -20px;
-            margin-left: -20px;
+            font-size: 10px;
+            background-color: rgb(163, 196, 188);
+            margin: -8px;
             text-align: right;
-            padding-bottom: 20px;
-            background-image: url(https://live.staticflickr.com/65535/50064617341_a280817b91_w.jpg);
+            padding: 5px;
+            clear: both;
         }
        #img {
             float: left;
        }
        #img2 {
             float: right;
+       }
+       .column {
+           background-color: rgb(255, 255, 255);
+           float: left;
        }
        .rubrica {
             width: 67%;
@@ -82,6 +78,11 @@
             position: relative;
             width: 99%;
         }
+      #home {
+           position: fixed;
+           right: 20px;
+           bottom: 20px;
+       }
         </style>
         <meta charset="utf-8">
         <title>Just a Bookworm!</title>
@@ -90,27 +91,19 @@
     <body>
    <div id="megadiv">
         <div id="titlediv"><h1 id="title">Just a Bookworm</h1></div>
-        <p>You can also find me at these links.</p>
-        
-         <div id="div2">
-         <h3>Contents:</h3>
-        <ul id="vicino">
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-english/">HOME</a></li> 
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-columns/">other topics</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-books/">recommended books</a></li>
-            <li><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io-movies/">recommended movies and TV shows</a></li>
-        </ul>
-             <p id="vicino">go back to the <a href="https://just-a-booklover.github.io/just-a-bookworm.github.io">Italian version</a> ;) .</p>
-        </div>
-
-        <p> <a href="https://www.instagram.com/rana_lettrice/">Instagram</a>; until May 2020 I used to recommend books on Instagram: I posted a photo of the book and the recommendation in mi @rana_lettrice account. I don't use the account anymore (and I used to write in Italian ,:) ) but if you want to see my photos...<br><br>
+       
+        <div class="sotto div"><p style="margin-right: 20px; margin-left: 20px;">You can also find me at these links.<br>
+        <a href="https://www.instagram.com/rana_lettrice/">Instagram</a>; until May 2020 I used to recommend books on Instagram: I posted a photo of the book and the recommendation in mi @rana_lettrice account. I don't use the account anymore (and I used to write in Italian ,:) ) but if you want to see my photos...<br><br>
        <a href="https://tellonym.me/ranalettrice">Tellonym</a>; where you can ask me questions, tell me what you think about this website or what I should improve. You can also suggest me some good books or topics for the column.<br><br>
        <a href="https://www.goodreads.com/rana_lettrice">Goodreads</a>; I just downloaded it, but it seems to be interesting and useful. I'd like to track the books I read, vote them and write recommendations of the English books I read.<br><br>
             <a href="https://www.rottentomatoes.com/user/id/978816989">RottenTomatoes</a>; where I post short reviews of the movies (or the TV shows) I watch. I find more difficult to write an entire review for a movie than one for a book, so I don't review on this blog all the movies I watch, but I do it on RottenTomatoes.
        <p>
            
-       <p id="psmall" style="font-size: 20px;">I don't have other ideas of links I could add. If you have any, let me know at the Tellonym link.</p>
+       <p style="margin-right: 20px; margin-left: 20px;">I don't have other ideas of links I could add. If you have any, let me know at the Tellonym link.</p>
         
        </div>
+       
+       <div id="home"><a href="https://just-a-booklover.github.io/just-a-bookworm.github.io/"><img src="https://live.staticflickr.com/65535/50628268432_1f3120e8be.jpg" width="120px"></a></div>
+        
     </body>
 </html>
